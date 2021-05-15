@@ -18,6 +18,10 @@ function App() {
       <Provider store={store}>
         <div className="container">
           <TaskContainer />
+          <p className="information">
+            If you click on DONE button before clock reaches zero your task will
+            be marked as successful (GREEN)
+          </p>
           <button
             className="btn btn-create-task btn-envoke "
             onClick={() => setShowCreate(true)}
