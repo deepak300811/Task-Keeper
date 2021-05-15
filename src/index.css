@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+input {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid rgb(122, 122, 122);
+}
+
+.error-message {
+  margin: 0;
+  margin-top: 0.2rem;
+
+  color: red;
+  font-size: 0.8rem;
+  padding-left: 0.1rem;
+}
+.compulsory {
+  color: red;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.verticle-flex-box {
+  display: flex;
+  flex-direction: column;
+}
+.margin-top-half {
+  margin-top: 0.5rem;
+}
+
+.margin-top-1 {
+  margin-top: 1rem;
+}
+.btn-create-task {
+  margin-top: 1.5rem;
+  background: #1261a0;
+  color: #fff;
+}
+.btn-envoke {
+  align-self: center;
+  font-size: 1rem;
+  padding: 0.7rem 3rem 0.7rem 3rem;
 }
