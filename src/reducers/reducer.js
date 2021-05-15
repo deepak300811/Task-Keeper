@@ -27,7 +27,7 @@ const initialStore = {
       title: "go for running",
       wasPassed: false,
       isComputed: false,
-      timer: 6000
+      timer: 60000
     }
   ],
   next: 5
